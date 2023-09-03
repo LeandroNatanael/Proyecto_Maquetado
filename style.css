@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ToolBar {
+    width: 1500px;
+    height: 30px;
+    font-family: 'Archivo', sans-serif;
+    padding: 10px 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Vexion {
+    display: flex;
+    align-items: center;
+    color: white;
+}       
+
+.Bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+}
+
+
+.Inicio {
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    
+}
+
+.contenedor {
+    position: sticky;
+}
+.contenedor img {
+    position: relative;
+
+}
+.contenedor img:nth-child(2){
+    position: absolute;
+    top: 75px;
+    left: 275px;
+
+}
+
+.Aplicaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+
+}
+
+.B.Img.Apli {
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
